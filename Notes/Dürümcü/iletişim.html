@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Hazar Aliyazıcıoğlu">
+        <meta name="description" content="Ellerimle hazırladığım dürümleri size sunuyorum"> 
+        <link rel="stylesheet" href="dürümcü.css" type="text/css"> 
+        <title> DÜRÜMCÜ HAZAR USTA </title>  
+
+    </head>
+    <body>
+        <h1>BİZİMLE İLETİŞİME GEÇİN</h1>
+
+        <hr>
+
+        <nav>
+                
+            <a href="dürümcü.html">ANA SAYFA</a>
+            &emsp;
+            <a href="dürümcü.html">MENÜMÜZ</a>
+            &emsp;
+            <a href="çalışma.html">ÇALIŞMA SAATLERİ</a>
+            &emsp;
+            <a href="#iletişim">İLETİŞİM</a>
+                   
+        </nav>
+
+        <hr>
+        
+        <h2>İletişim Formumuz</h2>
+
+        <form id="iletişim">
+            <fieldset>
+                <legend>Bize Mesaj Gönderin</legend>
+
+                <p>
+                    <label for="name">İsminizi Giriniz:</label>
+                    <input type="text" name="name" id="name" placeholder="İsminizi Giriniz" required autofocus>
+                </p>
+                
+                <p>
+                    <label for="email">E-mail adresinizi giriniz:</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail adresinizi giriniz" autocomplete="on">
+                </p>
+
+                <p>
+                    <label for="mesaj">Mesajınızı giriniz:</label>
+                    <br>
+                    <textarea name="mesaj" id="mesaj" cols="100" rows="10"></textarea>
+                </p>
+
+            </fieldset>
+
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Send</button>
+            <button type="reset">Reset</button>
+
+        </form>
+        
+        <br>
+
+        <h2>ADRESİMİZ</h2>
+
+        <address>2411 Dürümcü mahallesi Lezzetli sokak <br> No:20 Daire:9</address>
+        Bizi arayın:<a href="tel:+9055555555555">0555-555-55555</a>
+
+        <br><br><br>
+
+        <a href="#h1">BAŞA DÖN</a>
+
+        <hr>
+
+        <p>Copyright &copy; Hazar'ın Dürümcü Dükkanı</p>
+
+    </body>
+</html>
